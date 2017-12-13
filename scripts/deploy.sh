@@ -14,5 +14,5 @@ do
 done
 echo
 echo "Config Server created. Pushing application."
-cf push -p "$@"
+cf push x-cloud-school -p "$@"
 echo "Done!"
