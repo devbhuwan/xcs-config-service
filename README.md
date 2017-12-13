@@ -1,4 +1,4 @@
-# xcs-config-service
+# XCloudSchool Configuration Server Repository
 
 - Publish application in the cloud foundry
 ```bash
