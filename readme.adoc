@@ -1,0 +1,16 @@
+# XCloudSchool Configuration Service
+
+image:https://travis-ci.org/x-cloud-school/xcs-config-service.svg?branch=Baby.M1["Build Status", link="https://travis-ci.org/x-cloud-school/xcs-config-service"]
+image:https://codecov.io/gh/x-cloud-school/xcs-config-service/branch/master/graph/badge.svg["Code Coverage", "https://codecov.io/gh/x-cloud-school/xcs-config-service"]
+
+### Build
+[source, bash]
+----
+$ ./gradlew clean build
+----
+
+### Publishing to cloud foundry
+[source, bash]
+----
+$ ./scripts/deploy.sh build/libs/xcs-config-service-<VERSION>.jar
+----
