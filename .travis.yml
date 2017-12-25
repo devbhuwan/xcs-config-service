@@ -9,3 +9,10 @@ cache:
   directories:
     - $HOME/.m2
     - $HOME/.gradle
+
+deploy:
+  provider: heroku
+  api_key: $HEROKU_API_KEY
+  on:
+    all_branches: true
+  app: xcs-config-service
