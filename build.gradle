@@ -56,3 +56,15 @@ dependencyManagement {
         mavenBom "io.pivotal.spring.cloud:spring-cloud-services-dependencies:${springCloudServicesVersion}"
     }
 }
+
+
+jacocoTestReport {
+    reports {
+        //noinspection GroovyAssignabilityCheck
+        xml.enabled true
+        //noinspection GroovyAssignabilityCheck
+        html.enabled false
+    }
+}
+
+check.dependsOn jacocoTestReport
