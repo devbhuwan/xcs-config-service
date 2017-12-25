@@ -1,0 +1,15 @@
+# XCloudSchool Configuration Server Repository
+
+## Prerequisites
+
+- Java 8
+- Git
+- Gradle
+
+## PUBLISHING
+
+.Publish application in the cloud foundry
+[source, bash]
+----
+$ ./scripts/deploy.sh build/libs/xcs-config-service-<VERSION>.jar
+----
