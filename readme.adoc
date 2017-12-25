@@ -1,5 +1,7 @@
 # XCloudSchool Configuration Service
 
+image:https://travis-ci.org/x-cloud-school/xcs-config-service.svg?branch=Baby.M1["Build Status", link="https://travis-ci.org/x-cloud-school/xcs-config-service"]
+
 ### Build
 [source, bash]
 ----
