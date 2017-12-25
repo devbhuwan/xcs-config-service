@@ -55,7 +55,3 @@ dependencyManagement {
         mavenBom "io.pivotal.spring.cloud:spring-cloud-services-dependencies:${springCloudServicesVersion}"
     }
 }
-
-build {
-    dependsOn asciidoctor
-}

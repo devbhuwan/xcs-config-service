@@ -31,17 +31,16 @@ asciidoctor {
 //noinspection GroovyAssignabilityCheck
 task docsZip(type: Zip, dependsOn: ['asciidoctor']) {
     group = "Distribution"
-    baseName = "spring-framework"
+    baseName = "xcs-config-service"
     classifier = "docs"
-    description = "Builds -${classifier} archive containing api and reference " +
-            "for deployment at http://docs.spring.io/spring-framework/docs."
+    description = "Builds -${classifier} archive containing api and reference."
 
     from("src/dist") {
         include "changelog.txt"
     }
 
     from(asciidoctor) {
-        into "spring-framework-reference"
+        into "xcs-config-service-reference"
     }
 
 }
