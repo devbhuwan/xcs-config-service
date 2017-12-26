@@ -10,11 +10,5 @@ cache:
     - $HOME/.m2
     - $HOME/.gradle
 
-#deploy:
-#  provider: heroku
-#  api_key: $HEROKU_API_KEY
-#  on:
-#    all_branches: true
-#  app: xcs-config-service
 after_success:
   - bash <(curl -s https://codecov.io/bash)
