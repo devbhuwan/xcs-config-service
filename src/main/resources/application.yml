@@ -7,12 +7,4 @@ spring:
         git:
           uri: https://github.com/x-cloud-school/xcs-environments
           default-label: master
-security:
-  basic:
-    enabled: false
-management:
-  security:
-    enabled: false
 ---
-spring:
-  profiles: test
