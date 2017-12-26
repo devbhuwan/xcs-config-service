@@ -8,3 +8,6 @@ encrypt:
     password: letmein
     alias: mytestkey
     secret: changeme
+
+server:
+  port: 8888

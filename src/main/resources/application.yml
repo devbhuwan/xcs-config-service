@@ -1,6 +1,3 @@
-spring:
-  profiles:
-    active: dev
 ---
 spring:
   profiles: dev
@@ -10,6 +7,4 @@ spring:
         git:
           uri: https://github.com/x-cloud-school/xcs-environments
           default-label: master
-server:
-  port: 8888
 ---
